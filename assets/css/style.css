@@ -1,34 +1,109 @@
 /* IMPOSTAZIONI GENERALI */
-.body {
-    text-align: center;
-    margin: 0;
-    padding: 0;
+
+.container {
     background-image: url(../img/sfondo.png);
-    background-size: 500px auto;
+    font-family: Poppins, sans-serif;
 }
-.box{justify-content: center;
-    text-align: center;
-    background-color: #0088a2;
-    box-sizing: border-box;
-
-}
-.logo{
-    width: 200px;
-}
-h1, .menu{
-color: white;
-}
-
 /* HEADER */
+header {
+    padding-top: 2em;
+    text-align: center;
+    margin-top: 2em;
+    background-color: #037791;
+    padding-bottom: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
+    border: 1px solid dimgrey;
+    box-shadow: 1px 5px 5px #6b6b6b;
+}
 
+header img {
+    width: 65%;
+    max-width: 250px;
+}
+header p {
+    margin: 2em 0;
+    font-weight: bold;
+    color: white; 
+    /* top e bottom 2em, left e right 0 */
+}
+header ul {
+    color: white;
+    font-weight: bold;
+}
 /* MAIN */
-
+main {
+    margin-top: 3em;
+    background-color: white;
+    margin-left: 2em;
+    margin-right: 2em;
+    padding-bottom: 1.5em;
+    border: 1px solid #aeaaaa;
+    box-shadow: 1px 5px 5px #575454;
+}
+main h1 {
+    
+    font-size: 2em;
+    margin-top: 1em;
+    margin-left: 0.5em;
+    
+    
+}
+.text,p  {
+    padding: 1em;
+}
+#mario{
+    padding: 1em;
+    color: gray;
+}
 /* ELEMENTI NEL MAIN - ARTICLE */
+span {
+    color: purple;
+}
+.tag {
+    color: black;
+    background-color: rgb(204, 202, 202);
+    border: 1px solid gray;
+    border-radius: 5px;
+}
 
 /* TABELLE */
 
 /* FORM */
 
 /* ELEMENTI NELL' ASIDE */
-
+aside h2 {
+    font-size: 1.5em;
+    text-align: center;
+}
+.aside-article {
+    background-color: #e3e2e2;
+    padding: 1em;
+    margin: 1em;
+    border: 1px solid #bdbaba;
+}
+.aside-article a{
+    margin-bottom: 0.3em;
+    display: inline-block;
+    color: rgb(4, 122, 151);
+}
+.category {
+    margin-bottom: 1em;
+}
+.date {
+    text-align: end;
+    font-size: 0.8em;
+}
 /* FOOTER */
+footer {
+    margin-left: 2em;
+    background-color: darkcyan;
+    text-align: center;
+    color: white;
+    margin-top: 1.5em;
+    margin-right: 2em;
+    margin-bottom: 1em;
+    padding: 0.6em;
+    border: 1px solid gray;
+    box-shadow: 1px 5px 5px #696868;
+}
